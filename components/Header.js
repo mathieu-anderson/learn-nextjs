@@ -7,10 +7,10 @@ const linkStyle = {
 const Header = () => {
   return (
     <div>
-      <Link a href='/'>
+      <Link href='/'>
         <a style={linkStyle}>Home</a>
       </Link>
-      <Link a href='/about'>
+      <Link href='/about'>
         <a style={linkStyle}>About</a>
       </Link>
     </div>
